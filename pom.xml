@@ -46,5 +46,18 @@
     </plugins>
   </build>
 
-
+<distributionManagement>
+  <repository>
+    <id>deployment</id>
+    <name>internal release</name>
+    <url>http://localhost:8081/repository/helloworld-release/</url>
+  </repository>
+  <snapshotRepository>
+    <id>deployment</id>
+    <name>internal snapshot release</name>
+    <url>http://localhost:8081/repository/helloworld-snap/</url>
+  </snapshotRepository>
+  </disrtibutionManagement>
+  
+  
 </project>
