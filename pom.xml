@@ -57,7 +57,7 @@
     <name>internal snapshot release</name>
     <url>http://localhost:8081/repository/helloworld-snap/</url>
   </snapshotRepository>
-  </disrtibutionManagement>
+  </distributionManagement>
   
   
 </project>
